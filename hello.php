@@ -1,5 +1,6 @@
 <?php
-echo "Hello Avinab <br>
-form is successfully submited";
+echo "Hello Avinab" ;
+echo "<br>";
+echo "form is successfully submited";
 
 ?>
