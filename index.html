@@ -1,578 +1,462 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-<title>Travello</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Travello template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jony</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
+
 <body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-<div class="super_container">
-	
-	<!-- Header -->
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid ">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="Works.html">Works</a></li>
+                                            <li><a href="Services.html">Services</a></li>
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                        <li><a href="works_details.html">work details</a></li>
+                                                        <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">about</a></li>
+                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#">Let’s Talk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
 
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
-							<div class="logo"><a href="index.html">Travello</a></div>
-							<nav class="main_nav">
-								<ul class="d-flex flex-row align-items-start justify-content-start">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="about.html">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="news.html">News</a></li>
-									<li><a href="contact.html">Contact</a></li>
-								</ul>
-							</nav>
-							<div class="header_phone ml-auto">Call us: 00-56 445 678 33</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
 
-							<!-- Hamburger -->
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                    <div class="col-lg-9">
+                        <div class="slider_text">
+                            <h3>Hi there, I am Jony <br>
+                                <span>Creative Director</span></h3>
+                        <a class="boxed-btn3-line" href="#">View Works</a>
+                        </div>
+                    </div>
+                    <div class="my_img d-none d-lg-block">
+                        <img src="img/about/my_img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
 
-							<div class="hamburger ml-auto">
-								<i class="fa fa-bars" aria-hidden="true"></i>
-							</div>
+    <div class="download_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+                    <div class="download_text">
+                        <h3>I’m a Creative director based on New York, who loves clean, simple & unique design. I also enjoy crafting </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="download_left">
+                        <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.
+                        </p>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget </p>
+                        <a href="#" class="boxed-btn3-line">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6">
+                    <div class="progress_skills">
+                        <div class="single_progress">
+                            <div class="label d-flex justify-content-between">
+                                <span>Wireframing</span>
+                                <span>90%</span>
+                            </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>UI/UX</span>
+                                        <span>70%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                        <div class="single_progress">
+                                <div class="label d-flex justify-content-between">
+                                        <span>Interaction design</span>
+                                        <span>45%</span>
+                                    </div>
+                                <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="header_social d-flex flex-row align-items-center justify-content-start">
-			<ul class="d-flex flex-row align-items-start justify-content-start">
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</header>
+    <!-- service_area start  -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/1.svg" alt="">
+                        </div>
+                        <h3>
+                                Web & Mobile Design
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/2.svg" alt="">
+                        </div>
+                        <h3>
+                                Web Development
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/3.svg" alt="">
+                        </div>
+                        <h3>
+                                E-commerce
+                        </h3>
+                        <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem vitae tristique ante ibero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service_area end  -->
 
-	<!-- Menu -->
+    <!-- gallery_area start  -->
+    <div class="gallery_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title mb-50">
+                        <h3>My Works</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-10">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/1.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/2.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/3.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                            <div class="single_gallery">
+                                <div class="thumb">
+                                    <img src="img/gallery/4.png" alt="">
+                                </div>
+                                <div class="gallery_heading">
+                                    <span>Mobile App</span>
+                                    <a href="works_details.html"><h4>Colorlib App Project</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="more_works">
+                                    <a class="boxed-btn3-line" href="#">More Works</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery_area end  -->
 
-	<div class="menu">
-		<div class="menu_header d-flex flex-row align-items-center justify-content-start">
-			<div class="menu_logo"><a href="index.html">Travello</a></div>
-			<div class="menu_close_container ml-auto"><div class="menu_close"><div></div><div></div></div></div>
-		</div>
-		<div class="menu_content">
-			<ul>
-				<li><a href="inex.html">Home</a></li>
-				<li><a href="about.html">About us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-		<div class="menu_social">
-			<div class="menu_phone ml-auto">Call us: 00-56 445 678 33</div>
-			<ul class="d-flex flex-row align-items-start justify-content-start">
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</div>
-	
-	<!-- Home -->
+        <!-- testimonial_area  -->
+        <div class="testimonial_area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section_title">
+                            <h3>What Clients say</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testmonial_active owl-carousel">
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single_carousel">
+                                <div class="row">
+                                    <div class="col-xl-9 col-md-9">
+                                        <div class="single_testmonial">
+                                            <p>“There are many variations of passages of Lorem Ipsum available, but the majority
+                                                have suffered alteration in some form by injected humour or randomised words
+                                                which don’t look even slightly believable. If you are going to use a passage.
+                                            </p>
+                                            <div class="testmonial_author">
+                                                <div class="thumb">
+                                                    <img src="img/case/testmonial.png" alt="">
+                                                </div>
+                                                <div class="author_name">
+                                                    <h3>Kalvin Piterson</h3>
+                                                    <span>Business Owner</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /testimonial_area  -->
+    
 
-	<div class="home">
-		
-		<!-- Home Slider -->
-		<div class="home_slider_container">
-			<div class="owl-carousel owl-theme home_slider">
-				
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_title"><h2>Let us take you away</h2></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_title"><h2>Let us take you away</h2></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_title"><h2>Let us take you away</h2></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="home_page_nav">
-				<ul class="d-flex flex-column align-items-end justify-content-end">
-					<li><a href="#" data-scroll-to="#destinations">Offers<span>01</span></a></li>
-					<li><a href="#" data-scroll-to="#testimonials">Testimonials<span>02</span></a></li>
-					<li><a href="#" data-scroll-to="#news">Latest<span>03</span></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<!-- Search -->
-
-	<div class="home_search">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="home_search_container">
-						<div class="home_search_title">Search for your trip</div>
-						<div class="home_search_content">
-							<form action="#" class="home_search_form" id="home_search_form">
-								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
-									<input type="text" class="search_input search_input_1" placeholder="City" required="required">
-									<input type="text" class="search_input search_input_2" placeholder="Departure" required="required">
-									<input type="text" class="search_input search_input_3" placeholder="Arrival" required="required">
-									<input type="text" class="search_input search_input_4" placeholder="Budget" required="required">
-									<button class="home_search_button">search</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Intro -->
-
-	<div class="intro">
-		<div class="intro_background" style="background-image:url(images/intro.png)"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="intro_container">
-						<div class="row">
-
-							<!-- Intro Item -->
-							<div class="col-lg-4 intro_col">
-								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
-									<div class="intro_icon"><img src="images/beach.svg" alt=""></div>
-									<div class="intro_content">
-										<div class="intro_title">Top Destinations</div>
-										<div class="intro_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Intro Item -->
-							<div class="col-lg-4 intro_col">
-								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
-									<div class="intro_icon"><img src="images/wallet.svg" alt=""></div>
-									<div class="intro_content">
-										<div class="intro_title">The Best Prices</div>
-										<div class="intro_subtitle"><p>Sollicitudin mauris lobortis in.</p></div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Intro Item -->
-							<div class="col-lg-4 intro_col">
-								<div class="intro_item d-flex flex-row align-items-end justify-content-start">
-									<div class="intro_icon"><img src="images/suitcase.svg" alt=""></div>
-									<div class="intro_content">
-										<div class="intro_title">Amazing Services</div>
-										<div class="intro_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-
-	<!-- Destinations -->
-
-	<div class="destinations" id="destinations">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_subtitle">simply amazing places</div>
-					<div class="section_title"><h2>Popular Destinations</h2></div>
-				</div>
-			</div>
-			<div class="row destinations_row">
-				<div class="col">
-					<div class="destinations_container item_grid">
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_1.jpg" alt="">
-								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">Bali</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_2.jpg" alt="">
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">Indonesia</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_3.jpg" alt="">
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">San Francisco</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_4.jpg" alt="">
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">Paris</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_5.jpg" alt="">
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">Phi Phi Island</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-						<!-- Destination -->
-						<div class="destination item">
-							<div class="destination_image">
-								<img src="images/destination_6.jpg" alt="">
-							</div>
-							<div class="destination_content">
-								<div class="destination_title"><a href="destinations.html">Mykonos</a></div>
-								<div class="destination_subtitle"><p>Nulla pretium tincidunt felis, nec.</p></div>
-								<div class="destination_price">From $679</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Testimonials -->
-
-	<div class="testimonials" id="testimonials">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_subtitle">simply amazing places</div>
-					<div class="section_title"><h2>Testimonials</h2></div>
-				</div>
-			</div>
-			<div class="row testimonials_row">
-				<div class="col">
-
-					<!-- Testimonials Slider -->
-					<div class="testimonials_slider_container">
-						<div class="owl-carousel owl-theme testimonials_slider">
-							
-							<!-- Slide -->
-							<div class="owl-item text-center">
-								<div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.</div>
-								<div class="testimonial_author">
-									<div class="testimonial_author_content d-flex flex-row align-items-end justify-content-start">
-										<div>john turner,</div>
-										<div>client</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide -->
-							<div class="owl-item text-center">
-								<div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.</div>
-								<div class="testimonial_author">
-									<div class="testimonial_author_content d-flex flex-row align-items-end justify-content-start">
-										<div>john turner,</div>
-										<div>client</div>
-									</div>
-								</div>
-							</div>
-
-							<!-- Slide -->
-							<div class="owl-item text-center">
-								<div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.</div>
-								<div class="testimonial_author">
-									<div class="testimonial_author_content d-flex flex-row align-items-end justify-content-start">
-										<div>john turner,</div>
-										<div>client</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="test_nav">
-			<ul class="d-flex flex-column align-items-end justify-content-end">
-				<li><a href="#">City Breaks Clients<span>01</span></a></li>
-				<li><a href="#">Cruises Clients<span>02</span></a></li>
-				<li><a href="#">All Inclusive Clients<span>03</span></a></li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- News -->
-
-	<div class="news" id="news">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-8">
-					<div class="news_container">
-						
-						<!-- News Post -->
-						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
-							<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>02</div>
-									<div>june</div>
-								</div>
-								<div class="news_post_title"><a href="#">Best tips to travel light</a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a href="#">lifestyle & travel</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>Pellentesque sit amet elementum ccumsan sit amet mattis eget, tristique at leo. Vivamus massa.Tempor massa et laoreet.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- News Post -->
-						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
-							<div class="news_post_image"><img src="images/news_2.jpg" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>01</div>
-									<div>june</div>
-								</div>
-								<div class="news_post_title"><a href="#">Best tips to travel light</a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a href="#">lifestyle & travel</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>Tempor massa et laoreet malesuada. Pellentesque sit amet elementum ccumsan sit amet mattis eget, tristique at leo.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- News Post -->
-						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
-							<div class="news_post_image"><img src="images/news_3.jpg" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>29</div>
-									<div>may</div>
-								</div>
-								<div class="news_post_title"><a href="#">Best tips to travel light</a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a href="#">lifestyle & travel</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>Vivamus massa.Tempor massa et laoreet malesuada. Aliquam nulla nisl, accumsan sit amet mattis.</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- News Sidebar -->
-				<div class="col-xl-4">
-					<div class="travello">
-						<div class="background_image" style="background-image:url(images/travello.jpg)"></div>
-						<div class="travello_content">
-							<div class="travello_content_inner">
-								<div></div>
-								<div></div>
-							</div>
-						</div>
-						<div class="travello_container">
-							<a href="#">
-								<div class="d-flex flex-column align-items-center justify-content-end">
-									<span class="travello_title">Get a 20% Discount</span>
-									<span class="travello_subtitle">Buy Your Vacation Online Now</span>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer_1.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter">
-						<div class="newsletter_title_container text-center">
-							<div class="newsletter_title">Subscribe to our newsletter to get the latest trends & news</div>
-							<div class="newsletter_subtitle">Join our database NOW!</div>
-						</div>
-						<div class="newsletter_form_container">
-							<form action="#" class="newsletter_form d-flex flex-md-row flex-column align-items-start justify-content-between" id="newsletter_form">
-								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
-									<div><input type="text" class="newsletter_input newsletter_input_name" id="newsletter_input_name" placeholder="Name" required="required"><div class="input_border"></div></div>
-									<div><input type="email" class="newsletter_input newsletter_input_email" id="newsletter_input_email" placeholder="Your e-mail" required="required"><div class="input_border"></div></div>
-								</div>
-								<div><button class="newsletter_button">subscribe</button></div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row footer_contact_row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="row">
-
-						<!-- Footer Contact Item -->
-						<div class="col-xl-4 footer_contact_col">
-							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/sign.svg" alt=""></div>
-								<div class="footer_contact_title">give us a call</div>
-								<div class="footer_contact_list">
-									<ul>
-										<li>Office Landline: +44 5567 32 664 567</li>
-										<li>Mobile: +44 5567 89 3322 332</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<!-- Footer Contact Item -->
-						<div class="col-xl-4 footer_contact_col">
-							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/trekking.svg" alt=""></div>
-								<div class="footer_contact_title">come & drop by</div>
-								<div class="footer_contact_list">
-									<ul style="max-width:190px">
-										<li>4124 Barnes Street, Sanford, FL 32771</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<!-- Footer Contact Item -->
-						<div class="col-xl-4 footer_contact_col">
-							<div class="footer_contact_item d-flex flex-column align-items-center justify-content-start text-center">
-								<div class="footer_contact_icon"><img src="images/around.svg" alt=""></div>
-								<div class="footer_contact_title">send us a message</div>
-								<div class="footer_contact_list">
-									<ul>
-										<li>youremail@gmail.com</li>
-										<li>Office@yourbusinessname.com</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="lets_talk">
+                            <h3>Do you have any Project? <a href="#">Let’s Talk</a> </h3>
+                            <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Behance</span>
+                            <a href="#"> <i class="fa fa-behance"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Dribbble</span>
+                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Medium</span>
+                            <a href="#"> <i class="fa fa-medium"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single_links d-flex justify-content-between align-items-center">
+                            <span>Linkedin</span>
+                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
-	</footer>
-</div>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/custom.js"></script>
+    <!-- link that opens popup -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <!-- <script src="js/gijgo.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
